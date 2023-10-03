@@ -33,7 +33,7 @@
     "sharp": "^0.31.3",
     "tailwind-scrollbar": "^2.1.0",
     "treeify": "^1.1.0",
-    "zod": "^3.21.4"
+    "zod": "^3.22.3"
   },
   "devDependencies": {
     "@astrojs/react": "^2.1.0",
