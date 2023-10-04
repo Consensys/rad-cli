@@ -9,24 +9,24 @@ DAX is a mono-repository powered by Turbo that houses a robust suite of applicat
 This tool was built with pnpm and using pnpx is the preferred way of running it but all your package managers should work. If you run into trouble please open an issue.
 
 ```bash
-npm install -g daxso-cli
+npm install -g rad-cli
 ```
 
 or
 
 ```bash
-npx daxso-cli
+npx rad-cli
 ```
 
 or
 
 ```bash
-pnpx daxso-cli
+pnpx rad-cli
 ```
 
 ## DaxCLI: A CLI Tool for Consensys
 
-DaxCLI is a robust CLI tool crafted to enhance and streamline your development process. Equipped with features such as session ID generation and analytics integration, it aims to be your go-to tool for project development. Here's how to get it up and running for local development.
+DaxCLI is a robust CLI tool crafted to enhance and streamline your development process, it aims to be your go-to tool for project development. Here's how to get it up and running for local development.
 
 ## Table of Contents
 

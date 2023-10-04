@@ -1,4 +1,4 @@
-# DAXSO Documentation Site
+# rad Documentation Site
 
 Based on the [Astro Starter Kit: Docs Site](https://github.com/withastro/astro/tree/latest/examples/docs). New to Astro?
 
@@ -8,7 +8,7 @@ Based on the [Astro Starter Kit: Docs Site](https://github.com/withastro/astro/t
 
 ## Outline
 
-- [DAXSO Documentation Site](#daxso-documentation-site)
+- [rad Documentation Site](#rad-documentation-site)
   - [Outline](#outline)
   - [Features](#features)
   - [Run Site Locally](#run-site-locally)
@@ -34,7 +34,7 @@ Based on the [Astro Starter Kit: Docs Site](https://github.com/withastro/astro/t
 ## Run Site Locally
 
 ```bash
-git clone https://github.com/Dax911/daxsoCLI.git
+git clone https://github.com/Dax911/radCLI.git
 cd web
 pnpm i
 pnpm dev

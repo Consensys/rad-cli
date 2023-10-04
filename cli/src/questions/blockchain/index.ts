@@ -12,7 +12,6 @@ export const promptBlockchain = async (): Promise<void> => {
     } );
 
     //const contractLanguageString = blockchain.toString().replace( / /g, '' ).replace( /,/g, '/' );
-    //triggerAnalytics( 'blockchain', contractLanguageString );
 
     if ( blockchain === 'Ethereum' ) {
         logger.success( `${blockchain}` );
@@ -23,9 +22,6 @@ export const promptBlockchain = async (): Promise<void> => {
 
     responseData.blockchain = blockchain;
     await handleResponseChange( responseData );
-
-    
-    
 };
 
 
@@ -39,7 +35,6 @@ export const newSmartContractERC = async (): Promise<void> => {
     } );
 
     //const contractLanguageString = smartContractERC.toString().replace( / /g, '' ).replace( /,/g, '/' );
-    //triggerAnalytics( 'smartContractERC', contractLanguageString );
 
     responseData.newSmartContractERC = newSmartContractERC;
     await handleResponseChange( responseData );

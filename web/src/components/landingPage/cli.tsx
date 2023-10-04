@@ -17,7 +17,7 @@ export default function CodeCard() {
           <div className="ml-2 h-3 w-3 rounded-full bg-green-500"></div>
         </div>
         <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0 }}>
-          pnpx daxso-cli@latest
+          pnpx rad-cli@latest
           <Typist.Delay ms={1250} />
         </Typist>
         <Typist
@@ -44,17 +44,16 @@ export default function CodeCard() {
           8888888P"&nbsp;&nbsp;"Y888888&nbsp;888&nbsp;&nbsp;888&nbsp;Y8P&nbsp;&nbsp;"Y8888P"&nbsp;&nbsp;&nbsp;"Y88P"
           <br />
         </Typist>
-        <Typist 
+        <Typist
           startDelay={2100}
           className=""
           cursor={{ show: false }}
           avgTypingDelay={-500}
         >
           <div>
-          Developer Acceleration eXperience for Smart-contract Organizations
-          </div >
-
-            </Typist>
+            Developer Acceleration eXperience for Smart-contract Organizations
+          </div>
+        </Typist>
         <Typist
           startDelay={2100}
           className=""
@@ -105,9 +104,8 @@ export default function CodeCard() {
           Good choice! Adding ERC!
           <br />
           <Typist.Delay ms={1000} />
-          
         </Typist>
-        </div>
+      </div>
     </div>
   );
 }

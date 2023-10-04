@@ -31,18 +31,22 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export type KnownLanguageCode = keyof typeof KNOWN_LANGUAGES;
 
-export const GITHUB_EDIT_URL = `https://github.com/Dax911/daxsoCLI/tree/main/web`;
+export const GITHUB_EDIT_URL = `https://github.com/Dax911/radCLI/tree/main/web`;
 
 export const COMMUNITY_INVITE_URL = `https://discord.gg/2UbYreY9bR`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
-  indexName: "daxso-doc",
+  indexName: "rad-doc",
   appId: "7I8V9MJ9KJ",
   apiKey: "14937c13e906c36b2076548d895d487f",
 };
 
-export type OuterHeaders = "Create Web3 App" | "Usage" | "Deployment" | "Contributing";
+export type OuterHeaders =
+  | "Create Web3 App"
+  | "Usage"
+  | "Deployment"
+  | "Contributing";
 
 export type SidebarItem<TCode extends KnownLanguageCode = KnownLanguageCode> = {
   text: string;
@@ -90,20 +94,16 @@ export const SIDEBAR: Sidebar = {
       { text: "Code Generation", link: "en/contrib/codegen" },
     ],
   },
-  
-  
 };
 
 export const SIDEBAR_HEADER_MAP: Record<
   Exclude<KnownLanguageCode, "en">,
   Record<OuterHeaders, string>
 > = {
-  
   // Translate the sidebar's "outer headers" here
   // sv: {
   //   "Create T3 App": "Create T3 App",
   //   Usage: "Användarguide",
   //   Deployment: "Deployment",
   // },
-  
 };

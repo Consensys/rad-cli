@@ -1,5 +1,5 @@
 {
-  "name": "daxso-cli",
+  "name": "rad-cli",
   "version": "1.0.0",
   "main": "index.ts",
   "license": "Apache-2.0",
@@ -9,12 +9,12 @@
   },
   "scripts": {
     "typecheck": "turbo typecheck",
-    "build:cli": "turbo --filter=daxso-cli build",
+    "build:cli": "turbo --filter=rad-cli build",
     "build:web": "turbo --filter=web build",
     "build": "turbo build",
-    "start:cli": "turbo --filter=daxso-cli start",
+    "start:cli": "turbo --filter=rad-cli start",
     "start:web": "turbo --filter=web start",
-    "dev:cli": "turbo --filter=daxso-cli dev",
+    "dev:cli": "turbo --filter=rad-cli dev",
     "dev:web": "turbo --filter=web dev",
     "clean": "turbo clean && rm -rf node_modules",
     "lint": "turbo lint && manypkg check",
@@ -27,13 +27,11 @@
     "pub:release": "cd cli && pnpm pub:release"
   },
   "keywords": [
-    "daxso",
     "web3",
     "consensys",
     "blockchain",
     "ethereum",
     "development-framework",
-    "Truffle",
     "Infura",
     "smart-contracts",
     "dApp",
@@ -64,7 +62,8 @@
     "npm-insights": "^2.0.1",
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
-    "tsup": "^7.2.0"
+    "tsup": "^7.2.0",
+    "turbo": "^1.10.14"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.2",

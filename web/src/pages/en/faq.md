@@ -5,13 +5,13 @@ layout: ../../layouts/docs.astro
 lang: en
 ---
 
-Welcome to the Frequently Asked Questions section, where we aspire to address all your curiosities and concerns regarding the DAXSO project! Embarking on a journey into the realm of smart contract organizations can sometimes bring forth a multitude of questions - and it's absolutely natural to seek answers.
+Welcome to the Frequently Asked Questions section, where we aspire to address all your curiosities and concerns regarding the rad project! Embarking on a journey into the realm of smart contract organizations can sometimes bring forth a multitude of questions - and it's absolutely natural to seek answers.
 
 Whether you're pondering the intricacies of setting up your environment or curious about our contribution guidelines, we've got you covered. Here, we've gathered a compendium of the most common queries from our vibrant and growing community. Our aim is to facilitate a smoother navigation through the vibrant ecosystem we are building together.
 
 As you peruse through these questions, remember, no query is too small or insignificant. Each question you have may very well resonate with others in the community. So, delve in and let your quest for knowledge flourish. After all, the continual exchange of information is what nurtures innovation and collaboration.
 
-In case you don't find the answer you're seeking, feel free to reach out to us through our official channels. We're here to assist you in every step of your DAXSO journey. Happy exploring!
+In case you don't find the answer you're seeking, feel free to reach out to us through our official channels. We're here to assist you in every step of your rad journey. Happy exploring!
 
 ### Utilizing Your New Project
 
@@ -23,7 +23,7 @@ Subsequently, initiate the necessary commands that correspond with the framework
 
 By adhering to the framework-specific protocols, you can effectively streamline the development process, fostering a smooth transition from development to deployment. Remember, each framework has its unique set of commands designed to optimize performance and security, so ensure to familiarize yourself with these to make the most of your project development experience.
 
-### What is the core philosophy behind the DAXSO project’s code structure?
+### What is the core philosophy behind the rad project’s code structure?
 
 The core philosophy is grounded in the principles of functional programming. This approach not only facilitates easy testing but also promotes the active modification of templates to create a truly unique starting point for every project. Additionally, it sets a strong foundation for potential migration to other languages such as Rust in the future.
 

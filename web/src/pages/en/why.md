@@ -1,6 +1,6 @@
 ---
-title: Why DAXSO?
-description: Why should you build with DaxSo?
+title: Why rad?
+description: Why should you build with rad?
 layout: ../../layouts/docs.astro
 lang: en
 ---

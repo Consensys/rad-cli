@@ -5,7 +5,7 @@ layout: ../../layouts/docs.astro
 lang: en
 ---
 
-Welcome to the **Developer Acceleration eXperience for Smart-contract Organizations** cli toolkit. The fastest way to get a head start on your project.  Here are just a few things before we begin.
+Welcome to the **Developer Acceleration eXperience for Smart-contract Organizations** cli toolkit. The fastest way to get a head start on your project. Here are just a few things before we begin.
 
 ## Prerequisties
 
@@ -21,9 +21,9 @@ The core pieces are [**Infura**](https://www.infura.io/) and [**TypeScript**](ht
 
 Swap pieces in and out as you need - this stack is modular at its core :)
 
-## So... what is daxso? A template?
+## So... what is rad? A template?
 
-Kind of? `daxso` is a CLI built by Dax to streamline the setup of a modular Web3 project from scratch. This means each piece is optional, and the "template" is generated based on your specific needs.
+Kind of? `rad` is a CLI built by Dax to streamline the setup of a modular Web3 project from scratch. This means each piece is optional, and the "template" is generated based on your specific needs.
 
 After countless projects and many years on this tech, we have lots of opinions and insights. We've done our best to encode them into this exensible build system.
 
@@ -39,4 +39,4 @@ We believe in building tools that are intuitive, easy to use, and require minima
 
 ### Solve Problems
 
-It's easy to fall into the trap of "adding everything" - we explicitly don't want to do that. Everything added to `create-daxso-proj` should solve a specific problem that exists within the core technologies included.
+It's easy to fall into the trap of "adding everything" - we explicitly don't want to do that. Everything added to `create-rad-proj` should solve a specific problem that exists within the core technologies included.
