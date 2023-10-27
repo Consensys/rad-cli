@@ -1,4 +1,4 @@
-# Rapid Application Development Command Line Tool
+# Rapid Application Development Command Line Tool (RAD-CLI)
 
 Welcome to the Rapid Application Development (RAD) tool for web3. This is an open-source CLI tool designed to help you start, build and deploy Web3 projects faster with better opinions and a smoother developer experience.
 
