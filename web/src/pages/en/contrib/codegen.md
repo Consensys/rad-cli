@@ -23,7 +23,7 @@ export const newProjectAuthor = async (): Promise<void> => {
         name: 'newProjectAuthor',
         type: 'input',
         message: 'Who is the creator of your new project?',
-        default: 'Dax the Dev', 
+        default: 'Dax the Dev',
     });
 
     responseData.newProjectAuthor = newProjectAuthor;
@@ -58,7 +58,6 @@ export const generatePackageJson = async ( data: { [key: string]: any }, targetD
     // Save the populated template to a file
     const outputPath = path.join( targetDirectory + `/${data.newProjectName}`, 'package.json' );
     fs.writeFileSync( outputPath, result );
-    await sendAnalytics('Package.json', 'success', responseData.sessionID as string);
     console.log( 'package.json generated successfully!' );
   } catch ( error ) {
     console.error( 'Error generating package.json:', error );

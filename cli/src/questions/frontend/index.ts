@@ -4,7 +4,6 @@ import inquirer from "inquirer";
 import path from 'path';
 import { logger } from "../../utils/logger.ts";
 import { getPlatform, getUserPkgManager } from "../../utils/getUserPackageManager.ts";
-import sendAnalytics from "../../utils/analytics.ts";
 
 
 
@@ -127,5 +126,4 @@ export const newFrontendAppType = async (): Promise<void> => {
 
     await handleResponseChange(responseData);
 
-    await sendAnalytics('Frontend App', newFrontendAppType, responseData.sessionID as string);
 }

@@ -1,25 +1,25 @@
 ---
-title: DAXSO Contribution Guidelines
+title: rad Contribution Guidelines
 description: Dealing with Smart Contracts
 layout: ../../../layouts/docs.astro
 lang: en
 ---
 
-Thank you for considering contributing to the Developer Acceleration eXperience for Smart-Contract Organizations or `daxso` project. Your efforts to enhance our project are greatly appreciated. When engaging with our community, either through GitHub or other platforms, we request you to adhere to the following guidelines:
+Thank you for considering contributing to the Developer Acceleration eXperience for Smart-Contract Organizations or `rad` project. Your efforts to enhance our project are greatly appreciated. When engaging with our community, either through GitHub or other platforms, we request you to adhere to the following guidelines:
 
 - Uphold a respectful, civil, and open-minded atmosphere.
-- Before initiating a new pull request, explore the [issue tracker](https://github.com/Dax911/daxsoCLI/issues) to check for existing issues or solutions.
+- Before initiating a new pull request, explore the [issue tracker](https://github.com/Dax911/radCLI/issues) to check for existing issues or solutions.
 - When proposing code modifications based on personal opinions, ensure to first open an issue outlining the intended changes. Proceed with a pull request only after receiving approval from the maintainers.
 
 ## How to Contribute
 
 ### Prerequisites
 
-To avoid investing time in changes that may have been previously declined or deemed unnecessary, begin by [opening an issue](https://github.com/Dax911/daxsoCLI/issues/new/choose) detailing the problem you intend to address.
+To avoid investing time in changes that may have been previously declined or deemed unnecessary, begin by [opening an issue](https://github.com/Dax911/radCLI/issues/new/choose) detailing the problem you intend to address.
 
 ### Contributing via Codesandbox
 
-You can contribute to this documentation through codesandbox, which automatically executes all necessary setup commands. [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/Dax911/daxsoCLI).
+You can contribute to this documentation through codesandbox, which automatically executes all necessary setup commands. [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/Dax911/radCLI).
 
 ### Setting Up Your Environment Locally
 
@@ -28,13 +28,13 @@ _Some commands presume the installation of the Github CLI. If it is not yet inst
 Start your contribution by forking the repository:
 
 ```bash
-gh repo fork Dax911/daxsoCLI
+gh repo fork Dax911/radCLI
 ```
 
 Next, clone the forked repository to your local system:
 
 ```bash
-gh repo clone <your-github-name>/daxsoCLI
+gh repo clone <your-github-name>/radCLI
 ```
 
 This project utilizes [pnpm](https://pnpm.io) as its package manager. If not already installed, proceed with:

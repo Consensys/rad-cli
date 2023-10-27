@@ -1,11 +1,11 @@
 ---
 title: Getting Started
-description: Getting Started with the DaxSo toolkit
+description: Getting Started with the rad toolkit
 layout: ../../layouts/docs.astro
 lang: en
 ---
 
-The Developer Acceleration eXperience for Smart Contract Organizations or DAXSO is an exensible build system that works across all major platforms.
+The Developer Acceleration eXperience for Smart Contract Organizations or rad is an exensible build system that works across all major platforms.
 
 ## Prerequisites
 
@@ -21,10 +21,10 @@ Please note that yarn has not been tested. If you do use yarn please open an iss
 
 ### Step 1: Clone the Repository
 
-Clone the repository from the github [repo](https://github.com/Dax911/daxsoCLI.git)
+Clone the repository from the github [repo](https://github.com/Dax911/radCLI.git)
 
 ```bash
-git clone https://github.com/Dax911/daxsoCLI.git
+git clone https://github.com/Dax911/radCLI.git
 ```
 
 ### Step 2: Install Dependencies
@@ -32,7 +32,7 @@ git clone https://github.com/Dax911/daxsoCLI.git
 Navigate to the root directory of the CLI tool and install the necessary dependencies using pnpm (preferred) or npm:
 
 ```bash
-cd path/to/daxsoCLI
+cd path/to/radCLI
 pnpm install
 # or
 npm install

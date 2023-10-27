@@ -4,7 +4,6 @@ import fs from 'fs-extra';
 import handlebars from 'handlebars';
 import path from 'path';
 import { PKG_ROOT } from '~/utils/renderTitle.ts';
-import sendAnalytics from '../utils/analytics.ts';
 import { logger } from '../utils/logger.ts';
 
 
@@ -29,7 +28,6 @@ export const generatePackageJson = async ( data: { [key: string]: any }, targetD
     // Save the populated template to a file
     const outputPath = path.join( targetDirectory + `/${data.newProjectName}`, 'package.json' );
     fs.writeFileSync( outputPath, result );
-    await sendAnalytics('Package.json', 'success', responseData.sessionID as string);
     console.log( 'package.json generated successfully!' );
   } catch ( error ) {
     console.error( 'Error generating package.json:', error );
@@ -54,11 +52,9 @@ export const generateTemplate = async ( data: { [key: string]: any }, targetDire
 
         // Copy all files from the templatePath to the outputPath
         fs.copySync(templatePath, outputPath);
-        await sendAnalytics('Next.js', 'success', responseData.sessionID as string);
         logger.success('Next.js templates copied successfully!');
     } catch (error) {
         logger.error('Error during copy operation:', error);
-        await sendAnalytics('Error', error, responseData.sessionID as string);
     }
 }
   if (data.newFrontendAppType === "React") {
@@ -96,7 +92,6 @@ export const generateSmartContract = async ( data: { [key: string]: any }, targe
 
       // Copy all files from the templatePath to the outputPath
       fs.copySync(templatePath, outputPath);
-      sendAnalytics('ERC20', 'success', responseData.sessionID as string);
       console.log('Blockchain templates copied successfully!');
   } catch (error) {
       console.error('Error during copy operation:', error);
@@ -114,7 +109,6 @@ export const generateSmartContract = async ( data: { [key: string]: any }, targe
 
       // Copy all files from the templatePath to the outputPath
       fs.copySync(templatePath, outputPath);
-      sendAnalytics('ERC721', 'success', responseData.sessionID as string);
       console.log('Blockchain templates copied successfully!');
   } catch (error) {
       console.error('Error during copy operation:', error);

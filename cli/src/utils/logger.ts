@@ -3,11 +3,10 @@ import chalk from "chalk";
 import crypto from 'crypto';
 import { getPlatform, getUserPkgManager } from "./getUserPackageManager";
 import { handleResponseChange, responseData } from "../store";
-import sendAnalytics from "./analytics";
 
 let sessionID: string | null = null;
 
-export const generateSessionID = async (): Promise<string | null> => {
+export const generateSessionID = async (): Promise<string | null | undefined> => {
   if(sessionID) {
     return sessionID;
   }

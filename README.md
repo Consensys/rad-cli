@@ -26,7 +26,7 @@ pnpx rad-cli
 
 ## RAD-CLI: A CLI Tool for web3
 
-RAD CLI is a robust CLI tool crafted to enhance and streamline your development process. Equipped with features such as session ID generation and analytics integration, it aims to be your go-to tool for project development. Here's how to get it up and running for local development.
+RAD CLI is a robust CLI tool crafted to enhance and streamline your development process, it aims to be your go-to tool for project development. Here's how to get it up and running for local development.
 
 ## Table of Contents
 
